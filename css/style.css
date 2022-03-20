@@ -1113,6 +1113,20 @@ pre {
   font-size: 20px;
 }
 
+.rslogo {
+  width: 100px;
+  height: 30px;
+  margin-top: 20px;
+}
+.rsimage img {
+  transition: all 0.3s linear;
+}
+.rsimage img:hover {
+  -webkit-transform: scale(1.09);
+  -ms-transform: scale(1.09);
+  transform: scale(1.09);
+}
+
 .contact .button__form.active::after {
   -webkit-animation: submit 2000ms ease-in-out;
   animation: submit 2000ms ease-in-out;
