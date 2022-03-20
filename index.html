@@ -357,7 +357,31 @@
     <div class="some" id="code">
       <div class="container">
         <div class="overlay">
-          <div class="some__wrapper"></div>
+          <div class="some__wrapper">
+            <h2 class="some__code" data-language="code">Code</h2>
+            <pre>
+              <code class="code__text">
+    function sortByBit(arr) {
+
+       return arr.sort((x, y) => {
+
+          let a = x.toString(2).split('').reduce((acc, item) => acc + +item, 0);
+          let b = y.toString(2).split('').reduce((acc, item) => acc + +item, 0);
+          
+          if (a < b) return -1;
+          if (a > b) return 1;
+          
+          if (a === b) {
+            if (x < y) return -1;
+            if (x > y) return 1;
+          };
+
+      })
+    }
+            </code>
+            </pre>
+            
+          </div>
         </div>
       </div>
     </div>

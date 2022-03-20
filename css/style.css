@@ -988,7 +988,22 @@ body.smoothLoading::before {
 
 .some {
   position: relative;
-  height: 1000px;
+  min-height: 681px;
+}
+.some__wrapper {
+  padding: 80px 0;
+  color: #fff;
+  font-size: 20px;
+}
+.some__code {
+  color: #fff;
+  font-size: 38px;
+  text-align: center;
+  margin-bottom: 38px;
+}
+pre {
+  display: flex;
+  justify-content: center;
 }
 
 .contact {
