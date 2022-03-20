@@ -383,11 +383,11 @@
           let a = x.toString(2).split('').reduce((acc, item) => acc + +item, 0);
           let b = y.toString(2).split('').reduce((acc, item) => acc + +item, 0);
           
-          if (a < b) return -1;
+          if (a &lt; b) return -1;
           if (a > b) return 1;
           
           if (a === b) {
-            if (x < y) return -1;
+            if (x &lt; y) return -1;
             if (x > y) return 1;
           };
 
