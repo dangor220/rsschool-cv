@@ -16,68 +16,47 @@
   </head>
   <body>
 
-    <header class="container">
-      <div class="header">
-        <nav class="nav">
-          <h1 class="header_logo">
-            <a
-              class="link_navigation link_navigation_header logo"
-              href="https://github.com/dangor220"
-              target="blanck"
-              >Danil Gordeev <br /><span class="logo_github"
-                >dangor220</span
-              ></a
-            >
-          </h1>
-          <ul class="header_navigation">
-            <li>
-              <a class="link_navigation link_navigation_header link_navigation_hover" href="#aboutme"
-                >About me</a
-              >
-            </li>
-            <li>
-              <a
-                class="link_navigation link_navigation_header link_navigation_hover"
-                href="#education"
-                >Education</a
-              >
-            </li>
-            <li>
-              <a class="link_navigation link_navigation_header link_navigation_hover" href="#skills"
-                >Skills</a
-              >
-            </li>
-            <li>
-              <a class="link_navigation link_navigation_header link_navigation_hover" href="#code"
-                >Code</a
-              >
-            </li>
-            <li>
-              <a
-                class="link_navigation link_navigation_header link_navigation_hover"
-                href="#experience"
-                >Experience</a
-              >
-            </li>
-            <li>
-              <a
-                class="link_navigation link_navigation_header link_navigation_hover"
-                href="#contacts"
-                >Contacts</a
-              >
-            </li>
-          </ul>
-        </nav>
-    </div>
-  </header>
-
-  <main class="container">
-
-    
-
-
-
-  </main>
+    <header class="header">
+      <div class="container">
+        <div class="header__wrapper" data-scroll-header>
+          <div class="header__logo">
+            <a class="header__logo-link" href="https://github.com/dangor220" target="_blank">dangor220</a>
+          </div>
+          <button class="header__hamburger">
+            <span class="header__line"></span>
+            <span class="header__line"></span>
+            <span class="header__line"></span>
+          </button>
+          <nav class="header__navigation">
+            <ul class="header__list">
+              <li class="header__item">
+                <a data-scroll href="#home" class="header__link header__link-select" data-language="home">Home</a>
+              </li>
+              <li class="header__item">
+                <a data-scroll href="#about" class="header__link" data-language="about">About</a>
+              </li>
+              <li class="header__item">
+                <a data-scroll href="#skills" class="header__link" data-language="skills">Skills</a>
+              </li>
+              <li class="header__item">
+                <a data-scroll href="#portfolio" class="header__link" data-language="portfolio">Potfolio</a>
+              </li>
+              <li class="header__item">
+                <a data-scroll href="#education" class="header__link" data-language="education">Education</a>
+              </li>
+              <li class="header__item">
+                <a data-scroll href="#contact" class="header__link" data-language="contact">Contact</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header__switch">
+            <span class="header__switch-lang header__switch-lang_active header__switch-scroll">en</span>
+            <span class="header__switch-separator header__switch-scroll">|</span>
+            <span class="header__switch-lang header__switch-scroll">ru</span>
+          </div>
+        </div>
+      </div>
+    </header>
   
 </body>
 </html>
