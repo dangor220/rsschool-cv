@@ -376,23 +376,28 @@
             <h2 class="some__code" data-language="code">Code</h2>
             <pre>
               <code class="code__text">
-    function sortByBit(arr) {
+function sortByBit(arr) {
 
-       return arr.sort((x, y) => {
+    return arr.sort((x, y) => {
 
-          let a = x.toString(2).split('').reduce((acc, item) => acc + +item, 0);
-          let b = y.toString(2).split('').reduce((acc, item) => acc + +item, 0);
-          
-          if (a &lt; b) return -1;
-          if (a > b) return 1;
-          
-          if (a === b) {
-            if (x &lt; y) return -1;
-            if (x > y) return 1;
-          };
+      let a = x.toString(2)
+               .split('')
+               .reduce((acc, item) => acc + +item, 0);
 
-      })
-    }
+      let b = y.toString(2)
+               .split('')
+               .reduce((acc, item) => acc + +item, 0);
+      
+      if (a &lt; b) return -1;
+      if (a > b) return 1;
+      
+      if (a === b) {
+        if (x &lt; y) return -1;
+        if (x > y) return 1;
+      };
+
+  })
+}
             </code>
             </pre>
 
@@ -498,10 +503,9 @@
                   alt="Mail" class="social__icon"></picture>
             </a>
           </li>
+          
         </ul>
-        <p class="text" data-language="footerDeveloper">
-          © 2022 made by dangor220
-        </p>
+       
         <div class="rslogo">
 
           <a href="https://rs.school/js/" target="_blank" class="rsimage">
@@ -509,6 +513,9 @@
           </a>
           
         </div>
+        <p class="text" data-language="footerDeveloper">
+          © 2022 made by dangor220
+        </p>
       </div>
     </div>
   </footer>

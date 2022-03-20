@@ -988,7 +988,7 @@ body.smoothLoading::before {
 
 .some {
   position: relative;
-  min-height: 681px;
+  min-height: 781px;
 }
 .some__wrapper {
   padding: 80px 0;
@@ -997,13 +997,58 @@ body.smoothLoading::before {
 }
 .some__code {
   color: #fff;
-  font-size: 38px;
+  font: 700 38px Hind, sans-serif;
   text-align: center;
   margin-bottom: 38px;
 }
 pre {
   display: flex;
   justify-content: center;
+}
+.code__text {
+  font-size: calc(16px + 2 * (100vw / 1170));
+}
+
+@media (max-width: 767px) {
+  .some {
+    min-height: 670px;
+  }
+  .code__text {
+    font-size: calc(14px + 2 * (100vw / 1170));
+  }
+}
+@media (max-width:540px) {
+  .some__code {
+    font-size: 23px;
+  }
+}
+@media (max-width:500px) {
+  .some {
+    min-height: 605px;
+  }
+  .code__text {
+    font-size: calc(12px + 2 * (100vw / 1170));
+  }
+}
+@media (max-width:411px) {
+  .some {
+    min-height: 553px;
+  }
+  .some__code {
+    font-size: 23px;
+    margin-bottom: 28px;
+  }
+  .code__text {
+    font-size: calc(11px + 2 * (100vw / 1170));
+  }
+}
+@media (max-width:363px) {
+  .some {
+    min-height: 500px;
+  }
+  .code__text {
+    font-size: calc(10px + 1 * (100vw / 1170));
+  }
 }
 
 .contact {
@@ -1116,7 +1161,7 @@ pre {
 .rslogo {
   width: 100px;
   height: 30px;
-  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .rsimage img {
   transition: all 0.3s linear;
