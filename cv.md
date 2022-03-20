@@ -24,7 +24,8 @@ Graduated from Bachelor's degree in Applied Informatics.<br>
 I am currently studying JavaScript and plan to become a developer in the future.<br>
 To achieve this goal I signed up for RS School.<br>
 Parallel cleaning David Flanagan and watching tutorial videos.<br>
-Sooner or later I will reach my goal. Good luck to all!<br>
+Sooner or later I will reach my goal.<br>
+Good luck to all!<br>
 
 ---
 
