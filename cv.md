@@ -9,7 +9,7 @@
 
 **Discord:** Danil Gordeev (@dangor220)
 
-**E-mail:** [dan.gor220@yandex.ru](dan.gor220@yandex.ru)
+**E-mail:** dan.gor220@yandex.ru
 
 **Telegram:** [@dangor220](https://t.me/dangor220)
 
