@@ -6,9 +6,13 @@
 ## Contact Information
 
 **Phone:** +7-911-390-80-87
+
 **Discord:** Danil Gordeev (@dangor220)
+
 **E-mail:** [dan.gor220@yandex.ru](dan.gor220@yandex.ru)
+
 **Telegram:** [@dangor220](https://t.me/dangor220)
+
 **GitHub:** [dangor220](https://github.com/dangor220)
 
 ## About myself
