@@ -105,6 +105,7 @@ Ready to constantly evolve and learn as part of a team.
   4. **Books**
      - JavaScript: The Definitive Guide by David Flanagan.
      - D. Duckett. "HTML and CSS. Development and creation of websites"
+  5. **Udemy and various other video courses** 
 
 ## English level
   - A1
