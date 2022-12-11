@@ -64,47 +64,47 @@ Ready to constantly evolve and learn as part of a team.
 ```
 ## Work experience
   1. [TuoTown](https://dangor220.github.io/tuo-town/dist/)
-    - HTML
-    - CSS/SCSS
-    - JS
-    - SlickSlider
-    - Gulp
-    - API DaData.ru (Autocomplete cities)
-    - API C6V.RU (Delivery calculation)
+     - HTML
+     - CSS/SCSS
+     - JS
+     - SlickSlider
+     - Gulp
+     - API DaData.ru (Autocomplete cities)
+     - API C6V.RU (Delivery calculation)
   2. [Virtual-keyboard](https://dangor220.github.io/virtual-keyboard/)
-    - HTML
-    - CSS/SCSS
-    - JS
-    - ESLint
+     - HTML
+     - CSS/SCSS
+     - JS
+     - ESLint
   3. [Alexa-rise](https://dangor220.github.io/alexa-rise/portfolio/)
-    - HTML
-    - CSS/SCSS
-    - JS
+     - HTML
+     - CSS/SCSS
+     - JS
   4. [Movie-App](https://dangor220.github.io/movie-app/)
-    - HTML
-    - CSS
-    - JS
-    - API
+     - HTML
+     - CSS
+     - JS
+     - API
   5. [Tic-tac-toe](https://dangor220.github.io/tic-tac-toe/)
-    - HTML
-    - CSS
-    - JS
+     - HTML
+     - CSS
+     - JS
   6. Portfolio [dangor220](https://dangor220.github.io/)
-    - HTML
-    - CSS
-    - JS
+     - HTML
+     - CSS
+     - JS
   7. More than 100 solved problems on [CodeWars](https://www.codewars.com/users/dangor220)
 
 ## Education
   1. **Pskov State University**
-    - *Undergraduate*. Profile: Applied Informatics.
-    - *Magistracy*. Profile: E-learning and digital platforms.
+     - *Undergraduate*. Profile: Applied Informatics.
+     - *Magistracy*. Profile: E-learning and digital platforms.
   2. **Moscow Finance and Law University**
-    - *Postgraduate studies*. Profile: Mathematical and software of computer systems, complexes and computer networks
+     - *Postgraduate studies*. Profile: Mathematical and software of computer systems, complexes and computer networks
   3. **JS/FE Pre-School 2022**
   4. **Books**
-    - JavaScript: The Definitive Guide by David Flanagan.
-    - D. Duckett. "HTML and CSS. Development and creation of websites"
+     - JavaScript: The Definitive Guide by David Flanagan.
+     - D. Duckett. "HTML and CSS. Development and creation of websites"
 
 ## English level
   - A1
