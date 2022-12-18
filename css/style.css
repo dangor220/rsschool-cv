@@ -84,7 +84,7 @@ body {
 }
 .main-column-right {
 	margin-top: 90px;
-	min-width: 530px;
+	max-width: 530px;
 }
 .section {
 	margin-bottom: 50px;
@@ -202,4 +202,63 @@ pre {
 
 #code {
 	margin-bottom: 0;
+}
+
+.list-education-name {
+	color: var(--black-color);
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+.list-education-item {
+	color: var(--gray-color);
+	font-weight: 400;
+	margin-bottom: 10px;
+}
+.education-dot {
+	display: inline-block;
+	min-width: 10px;
+	min-height: 10px;
+	border-radius: 100%;
+	background-color: var(--black-color);
+	margin: 0 10px;
+}
+.experience-card {
+	position: relative;
+	max-width: 530px;
+	height: 350px;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.experience-card:last-child {
+	margin-bottom: 0;
+}
+.experience-card-image {
+	width: 530px;
+	height: 350px;
+	object-fit: cover;
+	transition: all 0.8s;
+}
+.experience-card-hover {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background-color: rgba(18, 18, 20, 0.59);
+	position: absolute;
+	color: #ffffff;
+	font-size: 32px;
+	text-decoration: none;text-transform: uppercase;
+	font-weight: 600;
+	transition: all 0.3s;
+	
+}
+.experience-card:hover .experience-card-image {
+	transform: scale(1.1);
+}
+.experience-card:hover .experience-card-hover {
+	opacity: 1;
 }
