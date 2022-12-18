@@ -26,7 +26,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 .container {
-	max-width: 1140px;
+	max-width: 1440px;
 	margin: 0 auto;
 	padding: 80px;
 }
@@ -64,7 +64,7 @@ body {
 	position: relative;
 }
 .header-author-descr {
-	max-width: 400px;
+	max-width: 590px;
 	margin: 0;
 	line-height: 25px;
 	color: #ccccce;
@@ -72,7 +72,7 @@ body {
 }
 .header-author-image {
 	position: absolute;
-	bottom: -181px;
+	bottom: -200px;
 	right: 0;
 	max-width: 530px;
 }
@@ -84,7 +84,7 @@ body {
 }
 .main-column-right {
 	margin-top: 90px;
-	max-width: 530px;
+	min-width: 530px;
 }
 .section {
 	margin-bottom: 50px;
@@ -191,4 +191,15 @@ body {
 .skill-level-9:after {
 	right: calc(130px - var(--skill-figma));
 	width: var(--skill-figma);
+}
+
+pre {
+	background-color: #ccccce75;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin: 0;
+}
+
+#code {
+	margin-bottom: 0;
 }
