@@ -199,11 +199,11 @@ pre {
 	padding-right: 20px;
 	margin: 0;
 }
-
-#code {
-	margin-bottom: 0;
+.english-level {
+	font-weight: 600;
+	letter-spacing: 2px;
+	font-size: 20px;
 }
-
 .list-education-name {
 	color: var(--black-color);
 	font-weight: 600;
@@ -251,10 +251,10 @@ pre {
 	position: absolute;
 	color: #ffffff;
 	font-size: 32px;
-	text-decoration: none;text-transform: uppercase;
+	text-decoration: none;
+	text-transform: uppercase;
 	font-weight: 600;
 	transition: all 0.3s;
-	
 }
 .experience-card:hover .experience-card-image {
 	transform: scale(1.1);
